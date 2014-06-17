@@ -15,7 +15,9 @@ describe Track do
       track.set_discount(15)
 
       expect(track.price).to eq 3.4
+    end
 
+    it 'replaces any previous discount' do
       track.set_discount(20)
 
       expect(track.price).to eq 3.2
