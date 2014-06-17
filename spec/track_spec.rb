@@ -29,8 +29,4 @@ describe Track do
       expect(track.price).to eq 4
     end
   end
-
-
-
-
 end
